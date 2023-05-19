@@ -8,13 +8,10 @@ import { get_proxy_response, replace_wrap_links } from 'utility'
 async function main(req: Request): Promise<Response>
 {
 	const path = new URL(req.url).pathname
-	const wrap_res = await fetch(`${opt.schema}://${opt.wrap}/${path}`)
-
-	// console.log(wrap_res.headers)s
+	const wrap_res = await fetch(new Request(`${opt.schema}://${opt.wrap}/${path}`, req))
 
 	const body = await replace_wrap_links(wrap_res)
 	const init = get_proxy_response(wrap_res)
-
 	return new Response(body, init)
 }
 

@@ -4,7 +4,7 @@ import { get_ip_lan } from 'utility'
 
 
 
-export const VERSION = '0.0.1'
+export const VERSION = '0.0.2'
 
 
 export const opt = parse(Deno.args, {

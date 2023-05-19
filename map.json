@@ -1,0 +1,11 @@
+{
+	"imports": {
+		"/": "./",
+		"./": "./",
+		"info": "./src/info.ts",
+		"msg": "./src/message.ts",
+		"utility": "./src/utility.ts",
+		"http/": "https://deno.land/std@0.187.0/http/",
+		"flags/": "https://deno.land/std@0.187.0/flags/"
+	}
+}

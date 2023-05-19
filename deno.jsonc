@@ -1,0 +1,4 @@
+{
+	"importMap": "map.json",
+	"$schema": "https://deno.land/x/deno@v1.32.3/cli/schemas/config-file.v1.json"
+}

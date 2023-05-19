@@ -1,0 +1,23 @@
+{
+	"deno.enable": true,
+	// Languages
+	"[json]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"typescript.preferences.quoteStyle": "single",
+	"typescript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+	"typescript.format.placeOpenBraceOnNewLineForFunctions": true,
+	"typescript.format.semicolons": "remove",
+	// Editor
+	"editor.tabSize": 3,
+	"editor.insertSpaces": false,
+	"editor.stickyScroll.enabled": true,
+	"editor.inlayHints.enabled": "offUnlessPressed",
+	"workbench.startupEditor": "readme",
+}
